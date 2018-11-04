@@ -13,6 +13,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     Button foto;
+    Button datosPersonales;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,6 +25,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent foto = new Intent(MainActivity.this, Main2Activity.class);
                 startActivity(foto);
+
+            }
+        });
+
+        datosPersonales = (Button) findViewById(R.id.btn2);
+        datosPersonales.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent datosPersonales = new Intent(MainActivity.this, Main3Activity.class);
+                startActivity(datosPersonales);
 
             }
         });
