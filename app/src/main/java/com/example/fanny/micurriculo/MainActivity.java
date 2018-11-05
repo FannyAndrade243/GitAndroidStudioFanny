@@ -14,6 +14,7 @@ import android.widget.Button;
 public class MainActivity extends AppCompatActivity {
     Button foto;
     Button datosPersonales;
+    Button formacionAcademica;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +39,17 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        formacionAcademica = (Button) findViewById(R.id.btn3);
+        formacionAcademica.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent formacionAcademica = new Intent(MainActivity.this, Main4Activity.class);
+                startActivity(formacionAcademica);
+
+            }
+        });
+
 
 
     }
