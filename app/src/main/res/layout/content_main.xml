@@ -59,6 +59,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="DATOS PERSONALES"
+        android:textStyle="bold"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -78,6 +79,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:text="FORMACION ACADEMICA"
+        android:textStyle="bold"
         android:textAppearance="@style/TextAppearance.AppCompat.Button"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -87,7 +89,7 @@
         app:layout_constraintVertical_bias="0.156" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btn4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -98,6 +100,7 @@
         android:layout_marginBottom="8dp"
         android:text="EXPERIENCIA PROFESIONAL"
         android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     Button foto;
     Button datosPersonales;
     Button formacionAcademica;
+    Button experienciaProfesional;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,6 +50,17 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+
+        experienciaProfesional= (Button) findViewById(R.id.btn4);
+        experienciaProfesional.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent experienciaProfesional = new Intent(MainActivity.this, Main5Activity.class);
+                startActivity(experienciaProfesional);
+
+            }
+        });
+
 
 
 

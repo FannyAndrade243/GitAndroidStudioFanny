@@ -9,9 +9,28 @@
     tools:context=".Main3Activity"
     tools:showIn="@layout/activity_main3">
 
+    <Button
+        android:id="@+id/btnatras2"
+        android:layout_width="129dp"
+        android:layout_height="73dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="16dp"
+        android:drawableRight="@android:drawable/ic_menu_revert"
+        android:text="ATRAS"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.74"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <android.support.v7.widget.GridLayout
         android:layout_width="352dp"
-        android:layout_height="460dp"
+        android:layout_height="450dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
@@ -21,9 +40,10 @@
         android:background="@color/colorAccent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        app:layout_constraintVertical_bias="0.177">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -163,4 +183,5 @@
 
         </LinearLayout>
     </android.support.v7.widget.GridLayout>
+
 </android.support.constraint.ConstraintLayout>

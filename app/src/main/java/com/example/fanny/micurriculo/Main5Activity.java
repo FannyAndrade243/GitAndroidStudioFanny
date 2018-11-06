@@ -9,12 +9,12 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
-public class Main4Activity extends AppCompatActivity {
-    Button botonAtras3;
+public class Main5Activity extends AppCompatActivity {
+    Button botonAtras4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main4);
+        setContentView(R.layout.activity_main5);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -27,12 +27,12 @@ public class Main4Activity extends AppCompatActivity {
             }
         });
 
-        botonAtras3 = (Button) findViewById(R.id.btnAtras3);
-        botonAtras3.setOnClickListener(new View.OnClickListener() {
+        botonAtras4 = (Button) findViewById(R.id.btnAtras4);
+        botonAtras4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent botonAtras3 = new Intent(Main4Activity.this, MainActivity.class);
-                startActivity(botonAtras3);
+                Intent botonAtras4 = new Intent(Main5Activity.this, MainActivity.class);
+                startActivity(botonAtras4);
             }
         });
     }
