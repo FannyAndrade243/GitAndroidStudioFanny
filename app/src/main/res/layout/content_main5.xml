@@ -17,7 +17,6 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="16dp"
         android:drawableRight="@android:drawable/ic_menu_revert"
         android:text="ATRAS"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
@@ -29,91 +28,85 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <android.support.v7.widget.GridLayout
-        android:layout_width="339dp"
-        android:layout_height="441dp"
+        android:layout_width="368dp"
+        android:layout_height="438dp"
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="76dp"
+        android:layout_marginBottom="36dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.275"
-        app:layout_constraintStart_toStartOf="parent">
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.586">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="395dp"
-            android:orientation="vertical"
-            app:layout_column="0"
-            app:layout_row="0">
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/textView26"
-                android:layout_width="320dp"
-                android:layout_height="100dp"
-                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="124dp"
                 android:text="EXPERIENCIA PROFESIONAL"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView27"
                 android:layout_width="match_parent"
-                android:layout_height="37dp"
-                android:text="PASANTIAS LABORALES ACADEMICOS"
-                android:textColor="@color/colorPrimaryDark"
+                android:layout_height="wrap_content"
+                android:text="PASANTIAS LABORALES"
                 android:textSize="18sp"
-
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView28"
                 android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:text=' • Empresa "HIdalgo Hidalgo"'
-                android:textColor="@color/colorPrimaryDark"
+                android:layout_height="wrap_content"
+                android:text='  • Empresa "Hidalgo e Hidalgo"'
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView29"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center"
-                android:text="CONTACTOS Y REFERENCIAS"
-                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                android:text="CONTACTOS-REFERENCIAS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
                 android:textStyle="bold" />
 
             <TextView
                 android:id="@+id/textView30"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text=" • Silvia Maria Sanchez Yumitaxi"
-                android:textColor="@color/colorPrimaryDark"
+                android:text="  • Silvia Maria Sanchez Tanyapaxi"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView31"
                 android:layout_width="match_parent"
-                android:layout_height="29dp"
-                android:text="     0987711221"
-                android:textColor="@color/colorPrimaryDark"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:text="         0998877887"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView32"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Javier William Farfan Sojos"
-                android:textColor="@color/colorPrimaryDark"
+                android:text="  •Javier William Farfan Sojos"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView33"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="    0998877667"
-                android:textColor="@color/colorPrimaryDark"
+                android:text="         0994455665"
                 android:textSize="18sp" />
         </LinearLayout>
     </android.support.v7.widget.GridLayout>

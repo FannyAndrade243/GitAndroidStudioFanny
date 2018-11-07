@@ -35,15 +35,15 @@
         android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginRight="8dp"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="40dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent">
 
         <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="416dp"
+            android:layout_width="376dp"
+            android:layout_height="436dp"
             android:background="@color/colorAccent"
             android:orientation="vertical"
             app:layout_column="1"
@@ -60,8 +60,8 @@
 
             <TextView
                 android:id="@+id/textView20"
-                android:layout_width="231dp"
-                android:layout_height="38dp"
+                android:layout_width="335dp"
+                android:layout_height="53dp"
                 android:text="PRIMARIA Y SECUNDARIA"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="18sp"
@@ -78,16 +78,16 @@
 
             <TextView
                 android:id="@+id/textView18"
-                android:layout_width="336dp"
-                android:layout_height="40dp"
-                android:text="• Academia Naval Almirante Illingworth"
+                android:layout_width="356dp"
+                android:layout_height="37dp"
+                android:text="• Acad.Naval Almirante Illingworth"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="18sp" />
 
             <TextView
                 android:id="@+id/textView22"
-                android:layout_width="166dp"
-                android:layout_height="35dp"
+                android:layout_width="255dp"
+                android:layout_height="37dp"
                 android:text="TERCER NIVEL"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="18sp"
@@ -103,7 +103,7 @@
 
             <TextView
                 android:id="@+id/textView24"
-                android:layout_width="166dp"
+                android:layout_width="260dp"
                 android:layout_height="35dp"
                 android:text="   Carrera:"
                 android:textColor="@color/colorPrimaryDark"
@@ -112,7 +112,7 @@
 
             <TextView
                 android:id="@+id/textView25"
-                android:layout_width="298dp"
+                android:layout_width="317dp"
                 android:layout_height="56dp"
                 android:text=" Licenciatura en Sistemas de Informacion"
                 android:textColor="@color/colorPrimaryDark"
